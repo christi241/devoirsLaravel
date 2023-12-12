@@ -86,6 +86,9 @@
       <th scope="col">prenom</th>
       <th scope="col">nom</th>
       <th scope="col">age</th>
+      <th scope="col">modifier</th>
+      <th scope="col">ajouter</th>
+      <th scope="col">suprimer</th>
     </tr>
   </thead>
   <tbody>
@@ -95,6 +98,10 @@
       <td>{{ $formation->prenom}}</td>
      <td>{{ $formation->nom}}</td>
      <td>{{ $formation->age}}</td>
+     <td><button class="btn btn-success">modifier</button></td>
+     <td><button class="btn btn-danger">ajouter</button></td>
+     <td><button class="btn btn-info">suprimer</button></td>
+
 </tr>
 @endforeach
 

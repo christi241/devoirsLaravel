@@ -11,7 +11,7 @@ class formationController extends Controller
 
         $liste_fo= formation::All();
 
-        return view("formation",['listes'=>$liste_fo]);
+        return view("formation",['listes_for'=>$liste_fo]);
     }
 
 }
